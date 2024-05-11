@@ -1,0 +1,122 @@
+
+:root {
+    /* Definição de variáveis de cor para reutilização */
+    --cor-cinza: #232931;
+    --cor-cinza2: #393E46;
+    --cor-verde1: #4ECCA3;
+    --cor-branca: #EEEEEE;
+}
+
+/* Estilos para o corpo do documento HTML e a tag <body> */
+body, html {
+    /* Cor de fundo e ajustes de layout */
+    background-color: var(--cor-cinza); /* Utiliza a variável de cor cinza definida acima */
+    justify-content: center; /* Centraliza elementos horizontalmente */
+    display: flex; /* Permite o uso de flexbox para o layout */
+    margin: 0; /* Zera a margem */
+    padding: 0; /* Zera o preenchimento */
+    gap: 4rem; /* Espaçamento entre elementos */
+}
+
+/* Estilos para o título principal */
+#titulo-principal {
+    color: var(--cor-branca); /* Cor do texto utilizando a variável de cor branca */
+}
+
+/* Estilos para a div principal com a classe "conteudo" */
+.conteudo {
+    margin-top: 60px; /* Margem superior de 60 pixels */
+    display: flex; /* Utiliza flexbox para o layout */
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    gap: 4rem; /* Espaçamento entre os itens */
+}
+
+/* Estilos para a div que contém o campo de entrada e o botão para adicionar tarefas */
+.conteudo--adiciona-item {
+    display: flex; /* Utiliza flexbox para o layout */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 1rem; /* Espaçamento entre os itens */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha conforme necessário */
+}
+
+/* Estilos para o campo de entrada de nova tarefa e o botão */
+#input-nova-tarefa,
+#botao-nova-tarefa {
+    border: none; /* Remove a borda */
+    font-size: 1rem; /* Tamanho da fonte */
+    outline: none; /* Remove o contorno ao focar */
+    padding: 1rem; /* Preenchimento interno */
+}
+
+/* Estilos específicos para o campo de entrada de nova tarefa */
+#input-nova-tarefa {
+    width: 20rem; /* Largura do campo */
+    border-radius: 1rem; /* Borda arredondada */
+}
+
+/* Estilos específicos para o botão de adicionar nova tarefa */
+#botao-nova-tarefa {
+    /* Estilo do botão */
+    background-color: var(--cor-cinza2); /* Cor de fundo usando variável de cor */
+    color: var(--cor-branca); /* Cor do texto usando variável de cor branca */
+    border-radius: 50%; /* Borda arredondada para formato de círculo */
+    width: 50px; /* Largura */
+    height: 50px; /* Altura */
+    cursor: pointer; /* Mostra a mão ao passar o mouse */
+    transition: .4s; /* Transição suave de propriedades */
+}
+
+/* Estilos para o botão de adicionar nova tarefa ao passar o mouse */
+#botao-nova-tarefa:hover {
+    background-color: var(--cor-verde1); /* Altera a cor de fundo ao passar o mouse */
+}
+
+/* Estilos para a lista de tarefas */
+#to-do-list {
+    color: var(--cor-branca); /* Cor do texto usando variável de cor branca */
+    display: flex; /* Utiliza flexbox para o layout */
+    flex-direction: column; /* Alinha os itens em coluna */
+    gap: 1rem; /* Espaçamento entre os itens */
+    padding: 0; /* Remove o preenchimento */
+}
+
+/* Estilos para cada item da lista de tarefas */
+#to-do-list li {
+    width: 26rem; /* Largura do item */
+    list-style-type: none; /* Remove os marcadores de lista */
+    font-size: 1.4rem; /* Tamanho da fonte */
+    text-transform: capitalize; /* Transforma o texto para capitalizado */
+    display: flex; /* Utiliza flexbox para o layout */
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content: space-between; /* Distribui os itens uniformemente */
+    transition: .4s; /* Transição suave de propriedades */
+}
+
+/* Estilos para cada item da lista de tarefas ao passar o mouse */
+#to-do-list li:hover {
+    background-color: rgb(50, 55, 63); /* Altera a cor de fundo ao passar o mouse */
+    border-radius: 1rem; /* Borda arredondada */
+    padding-left: 2rem; /* Preenchimento à esquerda */
+}
+
+/* Estilos para o botão de conclusão de tarefa */
+#btn-ok {
+    border: none; /* Remove a borda */
+    background-color: var(--cor-verde1); /* Cor de fundo usando variável de cor verde */
+    color: var(--cor-braca); /* Cor do texto usando variável de cor branca */
+    padding: .4rem .8rem; /* Preenchimento */
+    border-radius: 50%; /* Borda arredondada para formato de círculo */
+    height: 50px; /* Altura */
+    width: 50px; /* Largura */
+    display: flex; /* Utiliza flexbox para o layout */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    cursor: pointer; /* Mostra a mão ao passar o mouse */
+    transition: .4s; /* Transição suave de propriedades */
+}
+
+/* Estilos para o botão de conclusão de tarefa ao passar o mouse */
+#btn-ok:hover {
+    background-color: var(--cor-cinza); /* Altera a cor de fundo ao passar o mouse */
+}
