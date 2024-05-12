@@ -7,17 +7,17 @@
     <title>Lista de Tarefas</title> <!-- Título da página exibido na aba do navegador -->
 </head>
 <body>
-    <div class="conteudo"> <!-- Div principal com a classe "conteudo" -->
-        <h1 id="titulo-principal">Lista de Tarefas</h1> <!-- Título principal da página -->
-        <div class="conteudo--adiciona-item"> <!-- Div para adicionar um novo item na lista -->
-            <input type="text" id="input-nova-tarefa" placeholder="Digite sua nova tarefa"> <!-- Campo de entrada de texto para inserir nova tarefa -->
-            <button onclick="tarefas.nova_tarefa()" id="botao-nova-tarefa" title="Clique aqui para adicionar uma nova tarefa"> <!-- Botão para adicionar nova tarefa -->
+    <div class="content"> <!-- Div principal com a classe "conteudo" -->
+        <h1 id="main-title">Lista de Tarefas</h1> <!-- Título principal da página -->
+        <div class="content--add-item"> <!-- Div para adicionar um novo item na lista -->
+            <input type="text" id="input-new-task" placeholder="Digite sua nova tarefa"> <!-- Campo de entrada de texto para inserir nova tarefa -->
+            <button onclick="tarefas.nova_tarefa()" id="button-new-task" title="Clique aqui para adicionar uma nova tarefa"> <!-- Botão para adicionar nova tarefa -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16"> <!-- Ícone de "+" dentro do botão -->
                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
                 </svg>
             </button>
         </div>
-        <div class="conteudo--corpo"> <!-- Div para o corpo da lista de tarefas -->
+        <div class="content--body"> <!-- Div para o corpo da lista de tarefas -->
             <ol id="to-do-list"> <!-- Lista ordenada para as tarefas -->
             </ol>
         </div>

@@ -10,7 +10,7 @@ class TaskList {
 
     // Método para validar se uma tarefa já existe na lista
     valida_se_tarefa_ja_existe(){     
-        let input_valor = document.getElementById("input-nova-tarefa").value
+        let input_valor = document.getElementById("input-new-task").value
         // Verifica se já existe uma tarefa com o mesmo nome
         let existe      = this.values.find(x => x.name == input_valor)
         return !existe ? false : true
@@ -18,7 +18,7 @@ class TaskList {
 
     // Método para adicionar uma nova tarefa à lista
     nova_tarefa(){
-        let input = document.getElementById("input-nova-tarefa")
+        let input = document.getElementById("input-new-task")
         input.style.border = ""
 
         // Validação do campo de entrada
