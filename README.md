@@ -1,44 +1,43 @@
+# Task List
 
-# Lista de Tarefas
+This is a simple task list application developed in HTML, CSS, and JavaScript. It allows you to add, remove, and mark tasks as completed. Below are the instructions for running and using the application.
 
-Este é um simples aplicativo de lista de tarefas desenvolvido em HTML, CSS e JavaScript. Ele permite que você adicione, remova e marque tarefas como concluídas. Abaixo estão as instruções para executar e utilizar o aplicativo.
+## Usage Instructions
 
-## Instruções de Uso
+1. **Add a new task**: In the provided text field, type the name of the new task you want to add to the list and click the "+" button to add it.
 
-1. **Adicionar uma nova tarefa**: No campo de texto fornecido, digite o nome da nova tarefa que deseja adicionar à lista e clique no botão com sinal de "+" para adicionar.
+2. **Remove a task**: Next to each task on the list, there is a check button. Click this button to remove the corresponding task from the list.
 
-2. **Remover uma tarefa**: Ao lado de cada tarefa na lista, há um botão de marcação. Clique neste botão para remover a tarefa correspondente da lista.
+3. **Mark a task as completed**: After completing a task, click the check button next to it to mark it as completed. It will be removed from the task list.
 
-3. **Marcar uma tarefa como concluída**: Após concluir uma tarefa, clique no botão de marcação ao lado dela para marcá-la como concluída. Ela será removida da lista de tarefas.
+## How to Run
 
-## Como Executar
+To run the application, follow these steps:
 
-Para executar o aplicativo, siga estas etapas:
+1. Download the HTML, CSS, and JavaScript files from this repository to your computer.
 
-1. Baixe os arquivos HTML, CSS e JavaScript deste repositório para o seu computador.
+2. Open the `index.html` file in any modern web browser.
 
-2. Abra o arquivo `index.html` em qualquer navegador da web moderno.
+## Project Structure
 
-## Estrutura do Projeto
+- **index.html**: This is the main file that contains the structure of the task list application.
 
-- **index.html**: Este é o arquivo principal que contém a estrutura do aplicativo de lista de tarefas.
+- **style.css**: This file contains all the CSS styles to style the appearance of the application.
 
-- **style.css**: Este arquivo contém todos os estilos CSS para estilizar a aparência do aplicativo.
+- **script.js**: This file contains the JavaScript code responsible for adding dynamic functionalities to the application, such as adding, removing, and marking tasks.
 
-- **script.js**: Este arquivo contém o código JavaScript responsável por adicionar funcionalidades dinâmicas ao aplicativo, como adicionar, remover e marcar tarefas.
+## Contribution
 
-## Contribuição
+Contributions are welcome! Feel free to propose improvements, fix bugs, or add new features. Just open an issue or submit a pull request.
 
-Contribuições são bem-vindas! Sinta-se à vontade para propor melhorias, corrigir bugs ou adicionar novos recursos. Basta abrir uma issue ou enviar um pull request.
+## Author
 
-## Autor
+This code was developed by Ageu Felipe Nunes Moraes as part of a personal project dedicated to strengthening and maturing coding skills. For any questions or suggestions, please contact me at [ageumoraes67@gmail.com](mailto:ageumoraes67@gmail.com).
 
-Este código foi desenvolvido por Ageu Felipe Nunes Moraes(eu) como parte de um projeto pessoal dedicado ao fortalecimento e amadurecimento da codificação. Para quaisquer dúvidas ou sugestões, por favor, entre em contato pelo e-mail [ageumoraes67@gmail.com].
+## Disclaimer
 
-## Aviso Legal
+This is a software project developed by an individual and has no affiliation with any other entity.
 
-Este é um projeto de software desenvolvido por um indivíduo e não tem afiliação com outrem.
+## License
 
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
