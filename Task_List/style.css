@@ -100,6 +100,14 @@ body, html {
     padding-left: 2rem; /* Preenchimento à esquerda */
 }
 
+.content--body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    word-wrap: break-word; /* Faz com que o texto quebre para a linha seguinte */
+    word-break: break-all; /* Adicionalmente, força a quebra de palavras longas */
+}
+
 /* Estilos para o botão de conclusão de tarefa */
 #btn-ok {
     border: none; /* Remove a borda */
