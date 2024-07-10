@@ -95,14 +95,12 @@ body, html {
 
 /* Estilos para cada item da lista de tarefas ao passar o mouse */
 #to-do-list li:hover {
-    background-color: rgb(50, 55, 63); /* Altera a cor de fundo ao passar o mouse */
+    background-color: rgb(50, 55, 63); /* Altera a cor de fundo ao passar o mouse */   
     border-radius: 1rem; /* Borda arredondada */
     padding-left: 2rem; /* Preenchimento à esquerda */
 }
 
 .content--body{
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
     word-wrap: break-word; /* Faz com que o texto quebre para a linha seguinte */
     word-break: break-all; /* Adicionalmente, força a quebra de palavras longas */
@@ -128,3 +126,14 @@ body, html {
 #btn-ok:hover {
     background-color: var(--cor-cinza); /* Altera a cor de fundo ao passar o mouse */
 }
+
+@media (max-width: 435px){
+    #input-new-task{
+        width: 8rem;
+    }
+
+    #to-do-list li{
+        width: 14rem;
+    }
+}
+
